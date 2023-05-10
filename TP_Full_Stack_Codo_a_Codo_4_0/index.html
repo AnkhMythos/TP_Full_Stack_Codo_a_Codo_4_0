@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <title>TP Codo a Codo Java Full Stack</title>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+ 
+  <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous">
+  </script>
+
+  <!--  menu -->
+  <nav class="navbar navbar-expand-lg navbar-light px-5 pb-3" style="background-color: #3d4447">
+    <div class="container">
+      <img src="img/codoacodo.png" width="90em" alt="Logo de Codo a Codo" />
+      <a class="navbar-brand text-white" href="#">Conf Bs As</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
+          <a class="nav-link text-white-50" href="#">Los oradores</a>
+          <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+          <a class="nav-link text-white-50">Conviértete en orador</a>
+          <a class="nav-link text-success" href="compratk.html">Comprar tickets</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin del menú  -->
+
+
+  <!-- Carrusel Bs As -->
+  
+  <div class="card bg-dark text-white border-top-0 degradado">
+    <!-- <img src="img/ba1.jpg" class="card-img" alt="Buenos Aires" />-->
+    
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="img/ba1.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="img/ba2.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="img/ba3.jpg" class="d-block w-100" alt="">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Conf Bs As -->
+        
+    <!-- <h1>Conf Bs As</h1> -->
+    <div class="card-img-overlay degradado-desc text-end px-5 TextoDer textoAbajo ">      
+       <div class="caption centrado align-middle"><br><br>
+        <h4 class="card-title textoAbajo mx-1">Conf Bs As</h4>
+        <p
+          class="row-cols-1 TextoDer">
+          Bs As llega por primera vez a Argentina. Un evento para compartir con
+          nuestra comunidad el conocimiento y experiencia de los expertos que
+          están creando el futuro de Internet. Ven a conocer a miembros del
+          evento, a otros estudiantes de Codo a Codo y los oradores de primer
+          nivel que tenemos para tí. Te esperamos!
+        </p>
+        <button type="button" class="btn btn-outline-light btn-md">Quiero ser orador</button>
+        <button type="button" class="btn btn-success btn-md">Comprar tickets</button>
+      </div>      
+    </div>
+  </div>
+      
+  
+  <!--
+    <p class="card-text max-width:480px centrado col-md-7 textoAbajo col-sm-7 TextoDer offset-md-5"
+    style="max-width:640px fit-content">
+    
+    <small>
+      Bs As llega por primera vez a Argentina. Un evento para compartir con
+      nuestra comunidad el conocimiento y experiencia de los expertos que
+      están creando el futuro de Internet. Ven a conocer a miembros del
+      evento, a otros estudiantes de Codo a Codo y los oradores de primer
+      nivel que tenemos para tí. Te esperamos!
+    </small>
+  </p> 
+  
+  <a href="#" class="btn btn-outline-dark text-white border-white textoAbajo">Quiero ser orador</a>
+  <a href="#" class="btn btn-success textoAbajo me-4">Comprar tickets</a>
+-->
+
+
+<!-- Conoce a los oradores y Cards -->
+
+
+
+<!-- Cards
+  <div class="card" style="width: 18rem;">
+    <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+    <div class="card-body">
+      <h5 class="card-title">Steve Jobs</h5>
+      <p class="card-text">Informático y empresario estadounidense, Padre del primer ordenador personal y fundador de Apple Computer, probablemente la empresa mas innovadora del sector.</p>
+      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+    </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+      <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+      <div class="card-body">
+        <h5 class="card-title">Steve Jobs</h5>
+        <p class="card-text">Informático y empresario estadounidense, Padre del primer ordenador personal y fundador de Apple Computer, probablemente la empresa mas innovadora del sector.</p>
+        <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+      </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+      <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+      <div class="card-body">
+        <h5 class="card-title">Steve Jobs</h5>
+        <p class="card-text">Informático y empresario estadounidense, Padre del primer ordenador personal y fundador de Apple Computer, probablemente la empresa mas innovadora del sector.</p>
+        <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+      </div>
+    </div> -->
+    
+    <br />
+    <div class="container-fluid text-center px-5" style="width: 80%">
+      <p class="text-uppercase pt-2 mb-0">
+        <small>conoce a los</small>
+      </p>
+    
+    <p class="h3 text-uppercase">oradores</p>
+    <div class="card border-0 text-left">
+      <div class="row row-cols-1 row-cols-md-3 g-4 textizq">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs" />
+
+
+            <div class="card-body">
+              <div class="container px-5 py-0">
+                <div class="row ms-3 position-absolute start-0">
+                  <div class="
+                        col
+                        card-text
+                        bg-warning
+                        rounded
+                        mx-1
+                        p-0
+                        text-start
+						            textizq
+						            ">
+                    <small><strong> JavaScript </strong></small>
+                  </div>
+                  <div class="
+                        col
+                        card-text
+                        bg-info
+                        rounded
+                        mx-1
+                        p-0
+                        text-white
+                        textizq
+                      ">
+                    <small><strong> React </strong></small>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <h5 class="card-title textizq">Steve Jobs</h5>
+              <p class="card-text">
+                <small>
+                  Informático y empresario estadounidense, Padre del primer ordenador personal y fundador de Apple
+                  Computer, probablemente la empresa mas innovadora del sector.
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/bill.jpg" class="card-img-top" alt="Bill Gates" />
+            <div class="card-body">
+              <div class="container px-5 py-0">
+                <div class="row ms-3 position-absolute start-0">
+                  <div class="
+                        col
+                        card-text
+                        bg-warning
+                        rounded
+                        mx-1
+                        p-0
+                        mb-0
+                        textizq
+                        ">
+                    <small><strong> JavaScript </strong></small>
+                  </div>
+                  <div class="
+                        col
+                        card-text
+                        bg-info
+                        rounded
+                        text-white
+                        mx-1
+                        p-0
+                        mb-0
+                        textizq
+                      ">
+                    <small><strong> React </strong></small>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text textizq">
+                <small>
+                  Informático y empresario estadounidense, Fundador de Microsoft. La fortuna de este precoz programador,
+                  que no llegó a terminar sus estudios y que a los 31 años era ya multimillonario.
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/ada.jpeg" class="card-img-top" alt="Ada Lovelace" />
+            <div class="card-body">
+              <div class="container px-5 py-0">
+                <div class="row ms-3 position-absolute start-0">
+                  <div class="
+                        col
+                        card-text
+                        bg-secondary
+                        rounded
+                        mx-1
+                        p-0
+                        mb-0
+                        text-white
+                      "> <small> <strong> Negocios </strong> </small>
+
+                  </div>
+                  <div class="
+                        col
+                        card-text
+                        bg-danger
+                        rounded
+                        text-white
+                        mx-1
+                        p-0
+                        mb-0
+                        text-center                                  
+                      ">
+                    <span class="label"><small><strong> Startups </strong></small></span>
+                    <small></small>
+                  </div>
+                </div>
+              </div>
+              <br />
+
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text ">
+
+              </p>
+
+              <small>
+                Nació en Londres en 1815, fue una matemática escritora británica, celebre sobre todo por su trabajo
+                acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.
+              </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Final de las cards -->
+
+
+  <!-- Carousel -->
+    <br />
+    
+  <div class="container">
+       <div class="row justify-content-center divDoble border-white">
+          <div class="col-md-6 d-inline p-0"> 
+            
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"></div> -->
+
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/hawaii2.jpg" alt="Hawaii 2" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="img/hawaii3.jpg" alt="Hawaii 3" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="img/honolulu.jpg" alt="Honolulu" class="d-block w-100">
+          </div>
+          
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> 
+
+      </div>
+      </div> 
+
+
+          <!-- Bs As - Octubre -->
+          <br/>
+
+      
+        <div class="card h-100 border-0 col-md-6 text-light  d-inline divDoble" style="background-color: #3b4043">
+          <br/>
+        <h4>Bs As - Octubre</h4>
+
+        <p class="card-text fit-content"> 
+          <small>
+            Buenos Aires es la provincia y localidad más grande del estado de
+            Argentina. En los Estados Unidos, Honolulu es la más sureña de entre
+            las principales ciudades estadounidenses. Aunque el nombre de
+            Honolulu se refiere al área urbana en la costa sureste de la isla de
+            Oahu, la ciudad y el condado de Honolulu han formado una ciudad
+            condado consolidada que cubre toda la ciudad (aproximadamente 600
+            km<sup>2</sup>. de superficie).
+          </small>
+          </p>
+        
+         <a href="#" class="btn btn-outline-dark text-white border-white">Conocé más</a>
+        <br/><br/>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <br />
+
+  <!-- Formulario de registro de oradores -->
+  <div class="container-fluid text-center" px-5 style="width: 65%">
+    <p class="text-uppercase pt-2 mb-0">
+      <small>conviértete en un</small>
+    </p>
+    <p class="h1 text-uppercase">orador</p>
+    <p>
+      Anótate como orador para dar una
+      <abbr title="Presentación rápida con el objetivo de contar una historia, idea o visión">charla Ignite.</abbr>
+      Cuéntanos de qué quieres
+      hablar!
+    </p>
+    <div class="row g-2">
+      <div class="col-md">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" />
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" />
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+        placeholder="Sobre qué quieres hablar?"></textarea>
+      <p class="form-text alineadoIzq">
+        <small>Recuerda incluir un título para tu charla</small>
+      </p>
+    </div>
+    <div class="d-grid gap-2">
+      <button class="btn btn-success botonEnviar" type="button" style="background-color: #96C93E">
+        Enviar
+      </button>
+    </div>
+  </div>
+  <br />
+
+  <!-- Pie de página -->
+  <footer class="container-fluid pie text-white pt-4" style="background-color: #1D4054">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col">
+          <p><small>Preguntas frecuentes</small></p>
+        </div>
+        <div class="col">
+          <p><small>Contáctanos</small></p>
+        </div>
+        <div class="col">
+          <p><small>Prensa</small></p>
+        </div>
+        <div class="col">
+          <p><small>Conferencias</small></p>
+        </div>
+        <div class="col">
+          <p><small>Términos y condiciones</small></p>
+        </div>
+        <div class="col">
+          <p><small>Privacidad</small></p>
+        </div>
+        <div class="col">
+          <p><small>Estudiantes</small></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+
+</body>
+
+</html>
